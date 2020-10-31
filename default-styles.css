@@ -1,0 +1,284 @@
+/* prettier-ignore */
+
+/* Color Palettes
+   =======================================================*/
+
+/**
+ * Primary Colors
+ */
+
+/**
+ * Neutral Colors
+ */
+
+/**
+ * Supporting Colors
+ */
+
+/* Font Weights
+   =======================================================*/
+
+:root {
+	--fw-normal: 400;
+	/* --fw-normal: 500; */
+	--fw-heavy: 600;
+	/* --fw-normal: 700; */
+}
+
+/* Font Sizes
+   =======================================================*/
+
+:root {
+	--fs-small-1: 10px;
+	--fs-small-2: 12px;
+	--fs-small-3: 14px;
+	--fs-base: 16px;
+	--fs-medium-1: 18px;
+	--fs-medium-2: 20px;
+	--fs-medium-3: 24px;
+	--fs-large-1: 30px;
+	--fs-large-2: 36px;
+	--fs-large-3: 48px;
+	--fs-xlarge-1: 60px;
+	--fs-xlarge-2: 72px;
+	--fs-xlarge-3: 80px;
+}
+
+/* Spacing Sizes
+   =======================================================*/
+:root {
+	--size-small-1: 4px; /* x0.25 */
+	--size-small-2: 8px; /* x0.5 */
+	--size-small-3: 12px; /* x0.75 */
+	--size-base: 16px; /* x1 */
+	--size-medium-1: 24px; /* x1.5 */
+	--size-medium-2: 32px; /* x2 */
+	--size-medium-3: 48px; /* x3 */
+	--size-large-1: 60px; /* x4 */
+	--size-large-2: 72px; /* x6 */
+	--size-large-3: 128px; /* x8 */
+	--size-xlarge-1: 192px; /* x12*/
+	--size-xlarge-2: 256px; /* x16*/
+	--size-xlarge-3: 384px; /* x24 */
+	--size-xxlarge-1: 512px; /* x32 */
+	--size-xxlarge-2: 640px; /* x40 */
+	--size-xxlarge-3: 768px; /* x48 */
+}
+
+/* HTML5 reset
+   =======================================================*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+/* Other HTML default resets
+   =======================================================*/
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}

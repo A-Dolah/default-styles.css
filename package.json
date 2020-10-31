@@ -1,0 +1,10 @@
+{
+  "name": "default-styles.css",
+  "version": "1.0.0",
+  "description": "A default styles stylesheet",
+  "main": "base-styles.css",
+  "repository": "git@github.com:A-Dolah/default-styles.css.git",
+  "author": "A-Dolah <a.dolah.dev@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
