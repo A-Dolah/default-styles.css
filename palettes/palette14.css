@@ -1,0 +1,81 @@
+/**
+ * Primary Colors
+ */
+
+:root {
+	--primary-orange-1: hsl(22, 83%, 19%);
+	--primary-orange-2: hsl(22, 80%, 26%);
+	--primary-orange-3: hsl(22, 79%, 31%);
+	--primary-orange-4: hsl(22, 74%, 38%);
+	--primary-orange-5: hsl(22, 71%, 45%);
+	--primary-orange-6: hsl(22, 78%, 55%);
+	--primary-orange-7: hsl(21, 83%, 64%);
+	--primary-orange-8: hsl(22, 92%, 76%);
+	--primary-orange-9: hsl(22, 100%, 86%);
+	--primary-orange-10: hsl(22, 100%, 95%);
+
+	--primary-green-1: hsl(81, 86%, 14%);
+	--primary-green-2: hsl(81, 78%, 21%);
+	--primary-green-3: hsl(83, 74%, 27%);
+	--primary-green-4: hsl(83, 70%, 34%);
+	--primary-green-5: hsl(83, 64%, 42%);
+	--primary-green-6: hsl(83, 55%, 52%);
+	--primary-green-7: hsl(83, 63%, 61%);
+	--primary-green-8: hsl(83, 68%, 74%);
+	--primary-green-9: hsl(84, 77%, 86%);
+	--primary-green-10: hsl(83, 88%, 94%);
+}
+
+/**
+ * Neutral Colors
+ */
+:root {
+	--neutral-1: hsl(0, 0%, 13%);
+	--neutral-2: hsl(0, 0%, 23%);
+	--neutral-3: hsl(0, 0%, 32%);
+	--neutral-4: hsl(0, 0%, 38%);
+	--neutral-5: hsl(0, 0%, 49%);
+	--neutral-6: hsl(0, 0%, 62%);
+	--neutral-7: hsl(0, 0%, 69%);
+	--neutral-8: hsl(0, 0%, 81%);
+	--neutral-9: hsl(0, 0%, 88%);
+	--neutral-10: hsl(0, 0%, 97%);
+}
+
+/**
+ * Supporting Colors
+ */
+:root {
+	--supporting-blue-1: hsl(200, 82%, 24%);
+	--supporting-blue-2: hsl(200, 72%, 31%);
+	--supporting-blue-3: hsl(200, 68%, 35%);
+	--supporting-blue-4: hsl(200, 59%, 43%);
+	--supporting-blue-5: hsl(200, 54%, 49%);
+	--supporting-blue-6: hsl(200, 60%, 58%);
+	--supporting-blue-7: hsl(200, 66%, 69%);
+	--supporting-blue-8: hsl(200, 71%, 80%);
+	--supporting-blue-9: hsl(200, 88%, 90%);
+	--supporting-blue-10: hsl(201, 100%, 96%);
+
+	--supporting-red-1: hsl(360, 92%, 20%);
+	--supporting-red-2: hsl(360, 85%, 25%);
+	--supporting-red-3: hsl(360, 79%, 32%);
+	--supporting-red-4: hsl(360, 72%, 38%);
+	--supporting-red-5: hsl(360, 67%, 44%);
+	--supporting-red-6: hsl(360, 64%, 55%);
+	--supporting-red-7: hsl(360, 71%, 66%);
+	--supporting-red-8: hsl(360, 77%, 78%);
+	--supporting-red-9: hsl(360, 82%, 89%);
+	--supporting-red-10: hsl(360, 100%, 97%);
+
+	--supporting-yellow-1: hsl(43, 86%, 17%);
+	--supporting-yellow-2: hsl(43, 77%, 27%);
+	--supporting-yellow-3: hsl(43, 72%, 37%);
+	--supporting-yellow-4: hsl(42, 63%, 48%);
+	--supporting-yellow-5: hsl(42, 78%, 60%);
+	--supporting-yellow-6: hsl(43, 89%, 70%);
+	--supporting-yellow-7: hsl(43, 90%, 76%);
+	--supporting-yellow-8: hsl(45, 86%, 81%);
+	--supporting-yellow-9: hsl(45, 90%, 88%);
+	--supporting-yellow-10: hsl(45, 100%, 96%);
+}

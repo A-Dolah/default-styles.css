@@ -104,6 +104,57 @@
 			.size-xxlarge-3 {
 				padding-top: var(--size-xxlarge-3);
 			}
+
+			/* Line height */
+			.lh-base {
+				line-height: var(--lh-base);
+			}
+			.lh-small {
+				line-height: var(--lh-small);
+			}
+			.lh-medium {
+				line-height: var(--lh-medium);
+			}
+			.lh-large {
+				line-height: var(--lh-large);
+			}
+
+			/* Color Palettes */
+			.color-palette-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+				grid-gap: 30px;
+			}
+
+			.color-palette-card {
+				width: 100%;
+				height: 200px;
+			}
+
+			/* Color Palette 1 */
+			.primary-5 {
+				background-color: var(--primary-5);
+			}
+
+			.neutral-5 {
+				background-color: var(--neutral-5);
+			}
+
+			.supporting-indigo-5 {
+				background-color: var(--supporting-indigo-5);
+			}
+
+			.supporting-pink-5 {
+				background-color: var(--supporting-pink-5);
+			}
+
+			.supporting-red-5 {
+				background-color: var(--supporting-red-5);
+			}
+
+			.supporting-yellow-5 {
+				background-color: var(--supporting-yellow-5);
+			}
 		</style>
 	</head>
 	<body>
@@ -146,6 +197,32 @@
 				<button class="size-xxlarge-1">Padding-Top 512px</button>
 				<button class="size-xxlarge-2">Padding-Top 640px</button>
 				<button class="size-xxlarge-3">Padding-Top 768px</button>
+
+				<h1 style="background: yellow">Font Sizes</h1>
+				<p class="lh-base">This paragraph should have line height 1</p>
+				<p class="lh-small">This paragraph should have line height 1.5</p>
+				<p class="lh-medium">This paragraph should have line height 1.75</p>
+				<p class="lh-large">This paragraph should have line height 2</p>
+
+				<h1 style="background: yellow">Colors</h1>
+				<p>Color Palette 1</p>
+
+				<section class="color-palette-grid">
+					<div class="color-palette-card primary-5">Primary no 5</div>
+					<div class="color-palette-card neutral-5">Neutral no 5</div>
+					<div class="color-palette-card supporting-indigo-5">
+						Supporting indigo no 5
+					</div>
+					<div class="color-palette-card supporting-pink-5">
+						Supporting pink no 5
+					</div>
+					<div class="color-palette-card supporting-red-5">
+						Supporting red no 5
+					</div>
+					<div class="color-palette-card supporting-yellow-5">
+						Supporting yellow no 5
+					</div>
+				</section>
 			</main>
 		</div>
 	</body>

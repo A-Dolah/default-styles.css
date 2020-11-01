@@ -1,0 +1,69 @@
+/**
+ * Primary Colors
+ */
+:root {
+	--primary-blue-1: hsl(205, 100%, 21%);
+	--primary-blue-2: hsl(205, 87%, 29%);
+	--primary-blue-3: hsl(205, 82%, 33%);
+	--primary-blue-4: hsl(205, 76%, 39%);
+	--primary-blue-5: hsl(205, 67%, 45%);
+	--primary-blue-6: hsl(205, 65%, 55%);
+	--primary-blue-7: hsl(205, 74%, 65%);
+	--primary-blue-8: hsl(205, 84%, 74%);
+	--primary-blue-9: hsl(205, 97%, 85%);
+	--primary-blue-10: hsl(205, 79%, 92%);
+
+	--primary-yellow-1: hsl(15, 86%, 30%);
+	--primary-yellow-2: hsl(22, 82%, 39%);
+	--primary-yellow-3: hsl(29, 80%, 44%);
+	--primary-yellow-4: hsl(36, 77%, 49%);
+	--primary-yellow-5: hsl(42, 87%, 55%);
+	--primary-yellow-6: hsl(44, 92%, 63%);
+	--primary-yellow-7: hsl(48, 94%, 68%);
+	--primary-yellow-8: hsl(48, 95%, 76%);
+	--primary-yellow-9: hsl(48, 100%, 88%);
+	--primary-yellow-10: hsl(49, 100%, 96%);
+}
+
+/**
+ * Neutral Colors
+ */
+:root {
+	--neutral-1: hsl(209, 61%, 16%);
+	--neutral-2: hsl(211, 39%, 23%);
+	--neutral-3: hsl(209, 34%, 30%);
+	--neutral-4: hsl(209, 28%, 39%);
+	--neutral-5: hsl(210, 22%, 49%);
+	--neutral-6: hsl(209, 23%, 60%);
+	--neutral-7: hsl(211, 27%, 70%);
+	--neutral-8: hsl(210, 31%, 80%);
+	--neutral-9: hsl(212, 33%, 89%);
+	--neutral-10: hsl(210, 36%, 96%);
+}
+
+/**
+ * Supporting Colors
+ */
+:root {
+	--supporting-cyan-1: hsl(184, 91%, 17%);
+	--supporting-cyan-2: hsl(185, 84%, 25%);
+	--supporting-cyan-3: hsl(185, 81%, 29%);
+	--supporting-cyan-4: hsl(184, 77%, 34%);
+	--supporting-cyan-5: hsl(185, 62%, 45%);
+	--supporting-cyan-6: hsl(185, 57%, 50%);
+	--supporting-cyan-7: hsl(184, 65%, 59%);
+	--supporting-cyan-8: hsl(184, 80%, 74%);
+	--supporting-cyan-9: hsl(185, 94%, 87%);
+	--supporting-cyan-10: hsl(186, 100%, 94%);
+
+	--supporting-red-1: hsl(360, 92%, 20%);
+	--supporting-red-2: hsl(360, 85%, 25%);
+	--supporting-red-3: hsl(360, 79%, 32%);
+	--supporting-red-4: hsl(360, 72%, 38%);
+	--supporting-red-5: hsl(360, 67%, 44%);
+	--supporting-red-6: hsl(360, 64%, 55%);
+	--supporting-red-7: hsl(360, 71%, 66%);
+	--supporting-red-8: hsl(360, 77%, 78%);
+	--supporting-red-9: hsl(360, 82%, 89%);
+	--supporting-red-10: hsl(360, 100%, 97%);
+}
