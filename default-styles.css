@@ -15,19 +15,14 @@
 @import 'palettes/palette13.css';
 @import 'palettes/palette14.css'; */
 
-/* Font weights
-   =======================================================*/
 :root {
+	/* Font weights ==================*/
 	--fw-normal: 400;
 	/* --fw-normal: 500; */
 	--fw-heavy: 600;
 	/* --fw-normal: 700; */
-}
 
-/* Font sizes
-   =======================================================*/
-
-:root {
+	/* Font sizes ==================*/
 	--fs-small-1: 10px;
 	--fs-small-2: 12px;
 	--fs-small-3: 14px;
@@ -41,21 +36,14 @@
 	--fs-xlarge-1: 60px;
 	--fs-xlarge-2: 72px;
 	--fs-xlarge-3: 80px;
-}
 
-/* Line-heights
-   =======================================================*/
-
-:root {
+	/* Line-heights ==================*/
 	--lh-base: 1;
 	--lh-small: 1.5;
 	--lh-medium: 1.75;
 	--lh-large: 2;
-}
 
-/* Spacing sizes for margin and padding
-   =======================================================*/
-:root {
+	/* Spacing sizes for margin and padding ==================*/
 	--size-small-1: 4px; /* x0.25 */
 	--size-small-2: 8px; /* x0.5 */
 	--size-small-3: 12px; /* x0.75 */
@@ -74,9 +62,7 @@
 	--size-xxlarge-3: 768px; /* x48 */
 }
 
-/* HTML5 reset
-   =======================================================*/
-
+/* HTML5 reset ==================*/
 html,
 body,
 div,
@@ -243,8 +229,7 @@ select {
 	vertical-align: middle;
 }
 
-/* Other HTML default resets
-   =======================================================*/
+/* Other HTML default resets ==================*/
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.

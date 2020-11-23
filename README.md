@@ -8,8 +8,8 @@ I often end up spending too much of my developing time in considerations regardi
 
 The `default-styles.css` stylesheet includes design systems for the following aspects of CSS:
 
-1. Font size
-2. Font weight
+1. Font weight
+2. Font size
 3. Line height
 4. Color
 5. Margin
