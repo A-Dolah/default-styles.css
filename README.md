@@ -6,7 +6,7 @@
 
 I often end up spending too much of my developing time in considerations regarding things like font sizes, line heights, palettes etc. Furthermore, I've found that every time I use some kind of design system which is defined in advance, the design ends up looking much more consistent and better.
 
-In order to speed up and improve the styling process of any project I've created the `systemized-styling` package. As I myself mostly use React for frontend development, this package is created with projects initiated through `create-react-app` in mind (as its webpack setup allows for imorting .css files correctly). However, any project with a correct [webpack style-loader and css-loader](https://webpack.js.org/loaders/style-loader/) setup could use this package as that allow for importing the css correctly. However, if you don't want to overcomplicate things - it's totally fine just picking the `default-styles` stylesheet and any of the `palette.css` stylesheets and simply using them in your project. You don't have to use the NPM package.
+In order to speed up and improve the styling process of any project I've created the `systemized-styling` package. As I myself mostly use React for frontend development, this package is created with projects initiated through `create-react-app` in mind (as its webpack setup allows for imorting .css files correctly). However, any project with a correct [webpack style-loader and css-loader](https://webpack.js.org/loaders/style-loader/) setup could use this package. If you don't want to overcomplicate things - it's totally fine just picking the `default-styles` stylesheet and any of the `palette.css` stylesheets that you want and simply use them in your project. You don't have to use the NPM package.
 
 ## Systems and Resets
 
@@ -42,7 +42,7 @@ $ npm install --save systemized-styling
 
 ## Example initiation
 
-The styles are applied through the `applySystemizedStyling` function exported from the javascript module. It takes one argument - the number of the palette (a number between 1-14) which you wish to use. Call the `applySystemizedStyling` function with you palette number to apply the default styles and the palette.
+The styles are applied through the function exported from the javascript module (default export). It takes one argument - the number of the palette (a number between 1-14) which you wish to use. Call the function with you palette number to apply the default styles and the palette.
 
 ### React example
 
