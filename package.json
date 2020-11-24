@@ -1,12 +1,11 @@
 {
 	"name": "default-styles",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "A default styles CSS stylesheet which includes reasonable resets and systems for styling",
-	"main": "default-styles.css",
+	"main": "index.js",
 	"repository": "git@github.com:A-Dolah/default-styles.css.git",
-	"author": "Adam Dolah <a.dolah.dev@gmail.com>",
+	"author": "a-dolah <a.dolah.dev@gmail.com>",
 	"license": "MIT",
-	"private": false,
 	"keywords": [
 		"css",
 		"default styles",

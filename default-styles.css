@@ -1,20 +1,3 @@
-/* Color Palette - Import the palette of your choosing
-   =======================================================*/
-@import 'palettes/palette1.css';
-/* @import 'palettes/palette2.css';
-@import 'palettes/palette3.css';
-@import 'palettes/palette4.css';
-@import 'palettes/palette5.css';
-@import 'palettes/palette6.css';
-@import 'palettes/palette7.css';
-@import 'palettes/palette8.css';
-@import 'palettes/palette9.css';
-@import 'palettes/palette10.css';
-@import 'palettes/palette11.css';
-@import 'palettes/palette12.css';
-@import 'palettes/palette13.css';
-@import 'palettes/palette14.css'; */
-
 :root {
 	/* Font weights ==================*/
 	--fw-normal: 400;
