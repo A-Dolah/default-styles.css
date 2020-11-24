@@ -40,7 +40,7 @@ $ npm install --save systemized-styling
 
 ## Example application
 
-The styles are applied through the `apply` function exported from the javascript module. It takes one argument - the number of the palette (a number between 1-14) which you wish to use. Call the `apply` function with you palette number to apply the default styles and the palette.
+The styles are applied through the `applySystemizedStyling` function exported from the javascript module. It takes one argument - the number of the palette (a number between 1-14) which you wish to use. Call the `applySystemizedStyling` function with you palette number to apply the default styles and the palette.
 
 ### React example
 

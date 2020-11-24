@@ -1,4 +1,4 @@
-const apply = async (palette) => {
+const applySystemizedStyling = async (palette) => {
 	if (!palette) {
 		throw new Error('You have to provide palette number between 1-14');
 	}
