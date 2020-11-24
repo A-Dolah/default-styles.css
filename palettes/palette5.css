@@ -1,9 +1,9 @@
 @import '../default-styles.css';
 
-/**
+:root {
+	/**
  * Primary Colors
  */
-:root {
 	--primary-1: hsl(209, 61%, 16%);
 	--primary-2: hsl(211, 39%, 23%);
 	--primary-3: hsl(209, 34%, 30%);
@@ -14,12 +14,10 @@
 	--primary-8: hsl(210, 31%, 80%);
 	--primary-9: hsl(212, 33%, 89%);
 	--primary-10: hsl(210, 36%, 96%);
-}
 
-/**
+	/**
  * Supporting Colors
  */
-:root {
 	--supporting-blue-1: hsl(204, 96%, 27%);
 	--supporting-blue-2: hsl(203, 87%, 34%);
 	--supporting-blue-3: hsl(202, 83%, 41%);

@@ -1,11 +1,10 @@
 @import '../default-styles.css';
 
-/**
- * Primary Colors
- */
-
 /* TODO THIS PINK IS NOT CORRECT - DOUBLE CHECK */
 :root {
+	/**
+ * Primary Colors
+ */
 	--primary-pink-1: hsl(276, 91%, 23%);
 	--primary-pink-2: hsl(274, 87%, 31%);
 	--primary-pink-3: hsl(274, 87%, 37%);
@@ -16,12 +15,10 @@
 	--primary-pink-8: hsl(262, 100%, 78%);
 	--primary-pink-9: hsl(262, 100%, 88%);
 	--primary-pink-10: hsl(262, 90%, 96%);
-}
 
-/**
+	/**
  * Neutral Colors
  */
-:root {
 	--neutral-1: hsl(210, 24%, 16%);
 	--neutral-2: hsl(209, 20%, 25%);
 	--neutral-3: hsl(209, 18%, 30%);
@@ -32,12 +29,10 @@
 	--neutral-8: hsl(210, 16%, 82%);
 	--neutral-9: hsl(214, 15%, 91%);
 	--neutral-10: hsl(216, 33%, 97%);
-}
 
-/**
+	/**
  * Supporting Colors
  */
-:root {
 	--supporting-purple-1: hsl(276, 91%, 23%);
 	--supporting-purple-2: hsl(274, 87%, 31%);
 	--supporting-purple-3: hsl(274, 87%, 37%);

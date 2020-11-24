@@ -2,11 +2,11 @@
 
 # Systemized Styling - An NPM package for faster development
 
-## Motivation
+## Introduction
 
 I often end up spending too much of my developing time in considerations regarding things like font sizes, line heights, palettes etc. Furthermore, I've found that every time I use some kind of design system which is defined in advance, the design ends up looking much more consistent and better.
 
-In order to speed up and improve the styling process of any project I've created the `systemized-styling` package.
+In order to speed up and improve the styling process of any project I've created the `systemized-styling` package. As I myself mostly use React for frontend development, this package is created with projects initiated through `create-react-app` in mind (as its webpack setup allows for imorting .css files correctly). However, any project with a correct [webpack style-loader and css-loader](https://webpack.js.org/loaders/style-loader/) setup could use this package as that allow for importing the css correctly. However, if you don't want to overcomplicate things - it's totally fine just picking the `default-styles` stylesheet and any of the `palette.css` stylesheets and simply using them in your project. You don't have to use the NPM package.
 
 ## Systems and Resets
 
@@ -40,7 +40,7 @@ This repository is distributed with npm. After [installing npm](https://docs.npm
 $ npm install --save systemized-styling
 ```
 
-## Example application
+## Example initiation
 
 The styles are applied through the `applySystemizedStyling` function exported from the javascript module. It takes one argument - the number of the palette (a number between 1-14) which you wish to use. Call the `applySystemizedStyling` function with you palette number to apply the default styles and the palette.
 
@@ -66,13 +66,13 @@ function App() {
 Once the styles have been applied through calling the `applySystemizedStyling` function, you now have access to _css variables_ which you can use in your styling. For example:
 
 ```css
-p {
+.card__paragraph {
 	color: var(--neutral-1);
 	line-height: var(--lh-large);
 }
 ```
 
-For a complete overview of the CSS variables available as default styles and in each respective palette, inspect the css files in the `systemized-styling` `node_modules` folder.
+For a complete overview of the CSS variables available as default styles and in each respective palette, inspect the css files in this package.
 
 ## Browser support
 

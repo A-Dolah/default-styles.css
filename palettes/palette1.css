@@ -1,9 +1,9 @@
 @import '../default-styles.css';
 
-/**
+:root {
+	/**
  * Primary Colors
  */
-:root {
 	--primar-cyan-1: hsl(184, 91%, 17%);
 	--primar-cyan-2: hsl(185, 84%, 25%);
 	--primar-cyan-3: hsl(185, 81%, 29%);
@@ -14,11 +14,10 @@
 	--primar-cyan-8: hsl(184, 80%, 74%);
 	--primar-cyan-9: hsl(185, 94%, 87%);
 	--primar-cyan-10: hsl(186, 100%, 94%);
-}
-/**
+
+	/**
  * Neutral Colors
  */
-:root {
 	--neutral-1: hsl(209, 61%, 16%);
 	--neutral-2: hsl(211, 39%, 23%);
 	--neutral-3: hsl(209, 34%, 30%);
@@ -29,12 +28,10 @@
 	--neutral-8: hsl(210, 31%, 80%);
 	--neutral-9: hsl(212, 33%, 89%);
 	--neutral-10: hsl(210, 36%, 96%);
-}
 
-/**
+	/**
  * Supporting Colors
  */
-:root {
 	--supporting-indigo-1: hsl(234, 62%, 26%);
 	--supporting-indigo-2: hsl(232, 51%, 36%);
 	--supporting-indigo-3: hsl(230, 49%, 41%);
