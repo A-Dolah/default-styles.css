@@ -5,4 +5,4 @@ const applySystemizedStyling = async (palette) => {
 	await import(`./palettes/palette${palette}.css`);
 };
 
-export default apply;
+export default applySystemizedStyling;
