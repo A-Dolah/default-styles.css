@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/systemized-styling.svg)](https://badge.fury.io/js/systemized-styling)
+
 # Systemized Styling - An NPM package for faster development
 
 ## Motivation
