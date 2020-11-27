@@ -73,11 +73,11 @@
 	--h-100: 100%;
 
 	/* Two part box shadows ==================*/
-	--bs-flat: 0 1px 3px hsla(0, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0.24);
-	--bs-low: 0 3px 6px hsla(0, 0%, 0.15), 0 2px 4px hsla(0, 0%, 0.12);
-	--bs-medium: 0 10px 20px hsla(0, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0.1);
-	--bs-high: 0 15px 25px hsla(0, 0%, 0.15), 0 5px 10px hsla(0, 0%, 0.5);
-	--bs-xhigh: 0 20px 4px hsla(0, 0%, 0.2);
+	--bs-flat: 0 1px 3px hsla(0, 0%, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0%, 0.24);
+	--bs-low: 0 3px 6px hsla(0, 0%, 0%, 0.15), 0 2px 4px hsla(0, 0%, 0%, 0.12);
+	--bs-medium: 0 10px 20px hsla(0, 0%, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0%, 0.1);
+	--bs-high: 0 15px 25px hsla(0, 0%, 0%, 0.15), 0 5px 10px hsla(0, 0%, 0%, 0.5);
+	--bs-xhigh: 0 20px 4px hsla(0, 0%, 0%, 0.2);
 
 	/* Border radiuses ==================*/
 	--br-rounded-small: 2px;
